@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Aula 01 - Introdução ao JS</title>
+    <meta charset="UTF-8">
+    <title>App Aula 01</title>
 </head>
-<body id="corpo">
-    <h1>Minha Primeira Aplicação</h1>
+<body>
 
-    <button id="btnVerde">Mudar para Verde</button>
-    <button id="btnOriginal">Cor Original</button>
-    <button id="btnMensagem">Boas Vindas</button>
+  <div>
+    <h1>Criando uma Página Interativa</h1>
+    <h2>Controle de Cores</h2>
 
-    <script src="script.js"></script>
+    <button onclick="document.body.style.backgroundColor = 'green'">
+        Verde
+    </button>
+
+    <button onclick="document.body.style.backgroundColor = 'red'">
+        Vermelho
+    </button>
+
+    <button onclick="document.body.style.backgroundColor = 'white'">
+        Cor Original
+    </button>
+  </div>
+
+    <h2>Botão para apresentar mensagem</h2>
+
+  <div>
+    <button onclick="alert('Olá, seja bem-vindo ao meu app da aula 01 - Introdução ao JavaScript')">
+        Boas-vindas
+    </button>
+  </div>
+
 </body>
 </html>
